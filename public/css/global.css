@@ -1,0 +1,11 @@
+body,
+input {
+	font: 0.9rem Tahoma, sans-serif;
+}
+html {
+	padding: 2rem 0;
+}
+.container {
+	width: 100%;
+	max-width: 600px;
+}
