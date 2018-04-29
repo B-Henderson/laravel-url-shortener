@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller as BaseController;
 use View;
 
-class HomeController extends Controller
+class HomeController extends BaseController
 {
 
-    public function index()
-    {
-        return View::make('home');
-    }
+	public function index()
+	{
+		return View::make('home');
+	}
 }
